@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="cities">ALL CITIES</h1>
+<h1 class="cities">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill"
+         viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+    </svg>
+    CANADA
+</h1>
+<div class="container text-center">
+    <a class="cities btn btn-outline-dark" href="/search?loc=Vancouver" role="button">VANCOUVER</a>
+    <a class="cities btn btn-outline-dark" href="/search?loc=Burnaby" role="button">BURNABY</a>
+    <a class="cities btn btn-outline-dark" href="/search?loc=Coquitlam" role="button">COQUITLAM</a>
+    <a class="cities btn btn-outline-dark" href="/search?loc=Richmond" role="button">RICHMOND</a>
+    <a class="cities btn btn-outline-dark" href="/search?loc=Toronto" role="button">TORONTO</a>
+</div>
+{% endblock %}

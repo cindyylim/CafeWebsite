@@ -1,0 +1,29 @@
+{% extends "base.html" %} {% block content %}
+<div class="heading">Add new place</div>
+<p class="details">Let freelancers, and other remote workers know about a new work-friendly venue!</p>
+<p class="error">{{ error_msg }}</p>
+<div class="subheading">Fill in the details</div>
+<form class="form" action="/add" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="map_url">Google Maps Url:</label>
+    <input type="text" id="map_url" name="map_url"><br><br>
+    <label for="img_url">Image Url:</label>
+    <input type="text" id="img_url" name="img_url"><br><br>
+    <label for="loc">City:</label>
+    <input type="text" id="loc" name="loc"><br><br>
+    <label for="seats">Seats:</label>
+    <input type="text" id="seats" name="seats"><br><br>
+    <label for="coffee_price">Coffee Price:</label>
+    <input type="text" id="coffee_price" name="coffee_price"><br><br>
+    <label for="toilet">Toilet:</label>
+    <input type="checkbox" autocomplete="off" name="toilet" id="toilet"><br><br>
+    <label for="wifi">Wifi:</label>
+    <input type="checkbox" autocomplete="off" name="wifi" id="wifi"><br><br>
+    <label for="sockets">Sockets:</label>
+    <input type="checkbox" autocomplete="off" name="sockets" id="sockets"><br><br>
+    <label for="calls">Calls:</label>
+    <input type="checkbox" autocomplete="off" name="calls" id="calls"><br><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

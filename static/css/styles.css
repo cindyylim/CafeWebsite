@@ -1,0 +1,37 @@
+.header {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-image: url(cafe.jpg);
+    height: 410px;
+    font-size: 80px;
+}
+
+.header > a {
+    font-size: 50px;
+}
+
+.subheader {
+    font-size: 50px;
+    padding: 50px;
+    font-weight: normal;
+}
+
+.col {
+    padding: 50px;
+    font-size: 40px;
+}
+
+.col > p {
+    font-size: 25px;
+}
+
+.description {
+    font-size: 25px;
+}
+
+.cities {
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+}
