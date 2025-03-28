@@ -1,6 +1,6 @@
 # Café Finder Application
 
-A web application that helps users find cafés based on various amenities and features. The application allows users to filter cafés based on specific criteria such as WiFi availability, power sockets, ability to take calls, and toilet facilities.
+A web application that helps users find cafés based on various amenities and features. The application allows users to filter cafés based on specific criteria such as WiFi availability, power sockets, ability to take calls, and toilet facilities and suggest new places.
 
 ## Features
 
@@ -15,6 +15,7 @@ The application uses URL parameters to maintain filter states, allowing users to
 - Toggle various amenities on/off
 - Share filtered results via URL
 - Maintain filter preferences across page refreshes
+- Suggest new cafes 
 
 ## Technical Details
 
@@ -29,7 +30,7 @@ The application is built using:
 1. Clone the repository
 2. python install requirements.txt
 3. python main.py. The application will start on http://127.0.0.1:5000
-4. Use the toggle switches to filter cafés based on your preferences
+4. Use the toggle switches to filter cafés based on your preferences and suggest new cafes.
 
 ## Usage
 
