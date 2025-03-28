@@ -22,7 +22,8 @@ The application is built using:
 - Frontend JavaScript for handling user interactions
 - URL parameter management for state persistence
 - Event listeners for real-time filter updates
-
+- PostgreSQL for data persistence 
+  
 ## Getting Started
 
 1. Clone the repository
