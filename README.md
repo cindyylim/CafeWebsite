@@ -27,8 +27,9 @@ The application is built using:
 ## Getting Started
 
 1. Clone the repository
-2. python main.py
-3. Use the toggle switches to filter cafés based on your preferences
+2. python install requirements.txt
+3. python main.py. The application will start on http://127.0.0.1:5000
+4. Use the toggle switches to filter cafés based on your preferences
 
 ## Usage
 
